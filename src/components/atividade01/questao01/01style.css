@@ -1,0 +1,27 @@
+.container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.info {
+    font-family: Arial, sans-serif;
+    margin-bottom: 40px; 
+    font-size: 18px; 
+}
+
+.imc {
+    font-weight: bold;
+}
+
+.classificacaoNegativa {
+    color: red; 
+}
+
+.classificacaoPositiva {
+    color: green;
+}

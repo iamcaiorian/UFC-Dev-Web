@@ -1,0 +1,29 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.img-container {
+    position: relative;
+    width: 800px;
+    margin-bottom: 20px;
+}
+
+.hero-info, .enemy-info, .arena-info {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.hero-info h1, .enemy-info h1, .arena-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.hero-info h2, .enemy-info h2, .arena-info h2 {
+    margin: 5px 0;
+}
