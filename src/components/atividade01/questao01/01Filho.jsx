@@ -9,12 +9,12 @@ export const Filho = ({ altura, peso }) => {
 
     function classificacaoIMC(imc) {
         if (imc < 18) {
-            return <h3>Classificação: <span className='classificacaoNegativa'>Abaixo do peso</span></h3>
+            return <h3>Classificação: <span className='classificacaoAbaixo'>Abaixo do peso</span></h3>
         } else if (imc > 25) {
-            return <h3>Classificação: <span className='classificacaoNegativa'>Acima do peso</span></h3>
+            return <h3>Classificação: <span className='classificacaoAcima'>Acima do peso</span></h3>
         }
 
-        return <h3>Classificação: <span className='classificacaoPositiva'>Peso ideal</span></h3>
+        return <h3>Classificação: <span className='classificacaoIdeal'>Peso ideal</span></h3>
     }
 
     const imc = calcularIMC(altura, peso);

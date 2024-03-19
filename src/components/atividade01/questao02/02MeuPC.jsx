@@ -33,9 +33,8 @@ export const PlacaMae = ({ nome, preco }) => {
 
 export const MeuPC = () => {
   return (
-    <div className="container">
-        <h1>Questão 2:</h1>
-        <h2>Meu PC: </h2>
+    <div className="container02">
+        <h1>Meu PC: </h1>
         <PlacaMae nome="Asus Prime B450M Gaming/BR" preco="R$ 600,00" />
         <Memoria nome="HyperX Fury 8GB" preco="R$ 400,00" />
         <PlacaDeVideo nome="Nvidia GeForce RTX 2060" preco="R$ 2.000,00" /> 

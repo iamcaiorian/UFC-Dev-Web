@@ -25,7 +25,7 @@ export const Enemy = ({name, imagem, arena}) => {
 
 export const Arena = ({arena, children}) => {
   return (
-    <div className="arena-info">
+    <div className="info-container">
       <h1>Arena: {arena}</h1>
       {Children.map(children, child => {
         return cloneElement(child, {arena})
@@ -36,9 +36,9 @@ export const Arena = ({arena, children}) => {
 
 export function World({ children }) {
   return (
-    <div className='container'>
-      <h1>Questão 3:</h1>
-      <div className="container">{children}</div>
+    <div className='container03'>
+      <h1>Batalhas:</h1>
+      <div className="container03">{children}</div>
     </div>
   )
 }

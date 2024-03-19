@@ -1,4 +1,5 @@
 import React from 'react'
+
 // import { MeusDados1 } from './components/atividade00/01MeusDados'
 // import { MeusDados2 } from './components/atividade00/02MeusDados'
 // import { Temperatura } from './components/atividade00/03Temperatura'
@@ -6,8 +7,8 @@ import React from 'react'
 import { Pai } from './components/atividade01/questao01/01Pai'
 import { MeuPC } from './components/atividade01/questao02/02MeuPC'
 import { World, Arena, Hero, Enemy } from './components/atividade01/questao03/03Batalha'
-import l from './assets/l.jpg'
-import arminha from './assets/arminha.jpg'
+import charizard from './assets/charizard.jpg'
+import mewtwo from './assets/mewtwo.jpg'
 import anaconda from './assets/anaconda.jpg'
 import formigas from './assets/formigas.jpg'
 
@@ -51,8 +52,8 @@ export function App() {
             <Enemy name="1 milhão de formigas" imagem={formigas} />
           </Arena>
           <Arena arena="Brasil">
-            <Hero name="Fazuele" imagem={l} />
-            <Enemy name="Arminha" imagem={arminha} />
+            <Hero name="Charizard" imagem={charizard} />
+            <Enemy name="Mewtwo" imagem={mewtwo} />
           </Arena>
         </World>
       </div>

@@ -1,14 +1,21 @@
-.container {
-    max-width: 600px;
+.container02 {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    max-width: 400px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #09090b;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
+
 .pc-info {
+    background-color: #18181b;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
     margin: 20px 0;
     font-size: 18px;
 }
